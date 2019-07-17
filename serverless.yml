@@ -22,7 +22,7 @@ service: hello-world-python # NOTE: update this with your service name
 provider:
   name: aws
   runtime: python3.6
-  profile: serverlessProfile
+  #profile: serverlessProfile
   region: us-east-1
 
 # you can overwrite defaults here
