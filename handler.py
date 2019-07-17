@@ -4,7 +4,7 @@ import json
 def hello(event, context):
 	print("Lambda ran sucessfully")
     body = {
-        "message": "Go Serverless v1.0! Your function executed successfully!",
+        "message": "Go Serverless v1.1! Your function executed successfully! New version for dev stage",
         "input": event
     }
 
